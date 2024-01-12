@@ -38,8 +38,8 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 install.packages(c("devtools","usethis","pacman"), repos="http://cran.us.r-project.org")
 pacman::p_load(devtools,usethis,pacman)
 ```
+![InstalldevtoolsPackage](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/d3120a54-be49-44e2-a7ee-47a8810499a8)
 
-![Installing required packages](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/InstalldevtoolsPackage.png)
 
 ### Step4. Download GEXPLORER R package file from Pitt OneDrive
 I couldn't store GEXPLORER R package to the lab Github because METABRIC and SCAN-B data file sizes are too big, 218 Mb and 375 Mb. Github doesn't allow to upload a big size file > 25 Mb.
@@ -53,7 +53,9 @@ Download "GEXPLORER_0.0.1.1.tar.gz" (650 Mb). It takes long due to the file size
 **Mac users:** Mouse right click on "GEXPLORER_0.0.1.1.tar.gz" and click "Get Info." Drag the folder address and click Command+C
 Window users: You can copy the address in Windows Explorer.
 
-![Download GEXPLORER_0.0.1.1.tar.gz file](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/GEXPLORERZipDownload.png)
+![GEXPLORERZipDownload](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/650528c3-e187-4fa4-9dda-73122a96c43f)
+
+
 ### Step5. Install GEXPLORER R package. 
 In the R console, let's change your working directory to the folder you stored GEXPLORER_0.0.1.1.tar.gz (screenshot below)
 **Windows users:** When you copy and paste your address in your R code, the folder split is backslash like this, "\user\MyFolder\" You should revise it to slash. R doesn't understand backslash
@@ -72,7 +74,7 @@ library(GEXPLORER)
 Once you install GEXPLORER package one time, you don't need to install it again when you restarted your R session. Just you need to load GEXPLORER
 > library(GEXPLORER)
 
-![Install GEXPLORER package](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/InstallGEXPLORERZip.png)
+![InstallGEXPLORERZip](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/e39e5e40-1029-484d-845f-fd4754fc10f9)
 
 
 ## C. Play with GEXPLORER
@@ -89,5 +91,4 @@ shiny::shinyApp(ui=ui_TMS, server=server_TMS)
 ```
 In the Gene Querry box, type in your gene of interest. You can choose the dataset and clinical subtype of your interest below. 
 
-
-![Caption for the picture.](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/GEXPLORER_TMS.png)
+![GEXPLORER_TMS](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/42c70862-e07a-46de-bf1b-f5f803331cb5)
