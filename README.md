@@ -17,7 +17,7 @@ This is an instruction to explain how to use GEXPLORER. Considering your compute
 ## B. Basic requirements
 
 ### Step1. Download R and Rstudio, and install them. 
-You can just google for "R download and install" or "Rstudio download" to complete this step. If you have some experience already,
+You can just google for "R download and install" and "Rstudio download" to complete this step. If you have some experience already,
 
 You can install R from CRAN: https://cran.r-project.org/
 
