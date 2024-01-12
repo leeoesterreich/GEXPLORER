@@ -34,8 +34,8 @@ What are 'R console' and 'R package'? The lecture I introduced in Step1 will exp
 Simply, run these code lines in your R console. Just copy the lines, paste them to console, and hit enter key.
 
 ```{r}
-# Install and load multiple packages at a time. 
-install.packages(c("devtools","usethis","pacman"), repos="http://cran.us.r-project.org")
+# Install and load multiple packages at a time.  This will take 10~15 min if you are installing any packages for the first time.
+install.packages(c("devtools","usethis","pacman", "data.table","dplyr","EnvStats","ggbeeswarm","ggplot2","ggpubr","purrr","rstatix","shiny"), repos="http://cran.us.r-project.org")
 pacman::p_load(devtools,usethis,pacman)
 ```
 ![InstalldevtoolsPackage](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/d3120a54-be49-44e2-a7ee-47a8810499a8)
@@ -64,7 +64,7 @@ In the R console, let's change your working directory to the folder you stored G
 ## Let's change your working directory to the folder you stored "GEXPLORER_0.0.11.tar.gz" file. Note you need quotation inside parenthesis, like ("YourFolderAddress")
 setwd("/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2")
 
-## Install GEXPLORER. This takes 1.5 min depending on your computer spec.  Note you need quotation outside the file name. 
+## Install GEXPLORER. This takes 2~5 min depending on your computer spec.  Note you need quotation outside the file name. 
 install.packages("GEXPLORER_0.0.1.1.tar.gz")
 
 ## Load your GEXPLORER package. Note you DON'T need quotation. The package name is GEXPLORER, not GEXPLORER_0.0.1.1.tar.gz
