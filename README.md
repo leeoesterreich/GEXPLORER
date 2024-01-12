@@ -38,7 +38,8 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 install.packages(c("devtools","usethis","pacman", "data.table","dplyr","EnvStats","ggbeeswarm","ggplot2","ggpubr","purrr","rstatix","shiny"), repos="http://cran.us.r-project.org")
 pacman::p_load(devtools,usethis,pacman)
 ```
-![InstalldevtoolsPackage](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/d3120a54-be49-44e2-a7ee-47a8810499a8)
+![InstalldevtoolsPackage](https://github.com/leeoesterreich/GEXPLORER/assets/87338488/dda05da9-ab37-4fa0-b47c-c745c10b2901)
+
 
 
 ### Step4. Download GEXPLORER R package file from Pitt OneDrive
