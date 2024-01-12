@@ -10,7 +10,7 @@ output:
 
 
 ## A. Instruction 
-GEXPLORER is a visualization tool to disply the gene expression of your interest in breast cancer cell line ('GEXPLORER_CellLine') or patient data ('GEXPLORER_TMS') by ER subtype, PAM50, and histological subtypes. TMS stands for TCGA, METABRIC, and SCAN-B
+$${\color{red}GEXPLORER is a visualization tool to disply the gene expression of your interest in breast cancer cell line ('GEXPLORER_CellLine') or patient data ('GEXPLORER_TMS') by ER subtype, PAM50, and histological subtypes. TMS stands for TCGA, METABRIC, and SCAN-B
 
 This is an instruction to explain how to use GEXPLORER. Considering your computer programming skills, I made a R package to minimize your computer work and coding. Here are brief overview to use GEXPLORER.
 
