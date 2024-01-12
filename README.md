@@ -6,11 +6,11 @@ output:
   html_document: default
   pdf_document: default
 ---
-<code style="color : blue">**G**</code>ene **Ex**pression Ex**plorer** (GEXPLORER) was built on R version 4.3.1 (2023-06-16) -- "Beagle Scouts"  This means you need to install R version >= 4.3.1
+<span style="color: red">**G**</span> ene **Ex**pression Ex**plorer** (GEXPLORER) was built on R version 4.3.1 (2023-06-16) -- "Beagle Scouts"  This means you need to install R version >= 4.3.1
 
 
 ## A. Instruction 
-$${\color{red}GEXPLORER is a visualization tool to disply the gene expression of your interest in breast cancer cell line ('GEXPLORER_CellLine') or patient data ('GEXPLORER_TMS') by ER subtype, PAM50, and histological subtypes. TMS stands for TCGA, METABRIC, and SCAN-B
+GEXPLORER is a visualization tool to disply the gene expression of your interest in breast cancer cell line ('GEXPLORER_CellLine') or patient data ('GEXPLORER_TMS') by ER subtype, PAM50, and histological subtypes. TMS stands for TCGA, METABRIC, and SCAN-B
 
 This is an instruction to explain how to use GEXPLORER. Considering your computer programming skills, I made a R package to minimize your computer work and coding. Here are brief overview to use GEXPLORER.
 
