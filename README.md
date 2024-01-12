@@ -23,7 +23,7 @@ You can install R from CRAN: https://cran.r-project.org/
 
 You can install a user-friendly interface, R-Studio, from here: https://www.rstudio.com/products/rstudio/download/
 
-If you want to learn more in structure or if you got stuck, before asking me, visit https://hsls.libguides.com/video_intro2R There are a video lecture, ppt slide, and whole basic explanation.
+If you want to learn more in structure or if you got stuck, before asking me, visit https://hsls.libguides.com/video_intro2R There are a video lecture, ppt slides, and whole basic explanation.
 
 ### Step2. Start Rstudio
 What does 'start Rstudio' mean? Visit the lecture I introduced in Step1.
