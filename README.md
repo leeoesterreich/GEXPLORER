@@ -9,7 +9,7 @@ output:
   html_document: default
   pdf_document: default
 ---
-<span style="color:red">**G**</span>ene <span style="color:red">**Ex**</span>pression Ex<span style="color:red">**plorer**</span> (EXPLORER) was built on R version 4.3.1 (2023-06-16) -- "Beagle Scouts"  This means you need to install R version >= 4.3.1
+<span style="color:red">**G**</span>ene <span style="color:red">**Ex**</span>pression Ex<span style="color:red">**plorer**</span> (EXPLORER) was built on R version 4.3.1 (2023-06-16) -- "Beagle Scouts"  This means you need to install R version >= 4.3.3
 
 
 ## A. Instruction 
